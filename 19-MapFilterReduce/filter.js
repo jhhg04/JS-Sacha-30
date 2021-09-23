@@ -39,7 +39,7 @@ const productosBaratosFunc = productos.filter(function (producto) {
 const productosBaratosArrow = productos.filter(
   (producto) => producto.precio < 1000 // Se puede convirtir en ->
 );
-// console.log(productosBaratosArrow);
+console.log(productosBaratosArrow);
 
 const esBarato = (producto) => producto.precio < 1000;
 const esCaro = (producto) => !esBarato(producto);

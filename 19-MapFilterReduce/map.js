@@ -27,13 +27,13 @@ const productosConDescuento2 = productos.map(function (producto) {
   };
 });
 // console.log(productos);
-// console.log(productosConDescuento2);
+console.log(productosConDescuento2);
 
 const idProductos = productos.map(function (producto) {
   return producto.id;
 });
 const idProductos2 = productos.map((producto) => producto.id);
 const idProductos3 = productos.map(({ id }) => id);
-console.log(idProductos);
-console.log(idProductos2);
-console.log(idProductos3);
+// console.log(idProductos);
+// console.log(idProductos2);
+// console.log(idProductos3);
